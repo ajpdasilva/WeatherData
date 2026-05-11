@@ -1,0 +1,98 @@
+[
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "latitude": -26.2,
+    "longitude": 28.083334,
+    "timezone": "Africa/Johannesburg",
+    "utcoffset": 2
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895266,
+    "longitude": 139.6916809,
+    "timezone": "Asia/Tokyo",
+    "utcoffset": 9
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "latitude": 38.7166667,
+    "longitude": -9.1333332,
+    "timezone": "Europe/Lisbon",
+    "utcoffset": 0
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "latitude": -37.8139966,
+    "longitude": 144.9633179,
+    "timezone": "Australia/Melbourne",
+    "utcoffset": 11
+  },
+  {
+    "city": "Recife",
+    "country": "Brazil",
+    "latitude": -8.0538889,
+    "longitude": -34.8811111,
+    "timezone": "America/Recife",
+    "utcoffset": -3
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "latitude": -34.5761256,
+    "longitude": -58.4088135,
+    "timezone": "America/Argentina/Buenos_Aires",
+    "utcoffset": -3
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "latitude": 23.1319444,
+    "longitude": -82.3641663,
+    "timezone": "America/Havana",
+    "utcoffset": -4
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "latitude": 34.0522342,
+    "longitude": -118.2436829,
+    "timezone": "America/Los_Angeles",
+    "utcoffset": -7
+  },
+  {
+    "city": "Odesa",
+    "country": "Ukraine",
+    "latitude": 46.4774726,
+    "longitude": 30.7326221,
+    "timezone": "Europe/Kiev",
+    "utcoffset": 2
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "latitude": 3.1666667,
+    "longitude": 101.6999969,
+    "timezone": "Asia/Kuala_Lumpur",
+    "utcoffset": 8
+  },
+  {
+    "city": "Kabul",
+    "country": "Afghanistan",
+    "latitude": 34.5166667,
+    "longitude": 69.1833344,
+    "timezone": "Asia/Kabul",
+    "utcoffset": 4.5
+  },
+  {
+    "city": "Accra",
+    "country": "Ghana",
+    "latitude": 5.55,
+    "longitude": -0.2166667,
+    "timezone": "Africa/Accra",
+    "utcoffset": 0
+  }
+]

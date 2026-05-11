@@ -1,0 +1,54 @@
+import os
+import sys
+from airflow.sdk import dag, task
+from datetime import timedelta
+from pendulum import datetime
+
+# Get the directory where the DAG file sits, then go one level up to the project root
+dag_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.join(dag_dir, '..')
+sys.path.insert(0, project_root) 
+
+from scripts.collect_daily_data import collect_main
+from scripts.transform_data import transform_main
+from scripts.load_data import load_main
+
+default_args = {
+    "owner": "data_engineer",
+    "retries": 3,
+    "retry_delay": timedelta(minutes=5),
+}
+
+@dag(
+    dag_id="weather_data_etl_pipeline",
+    default_args=default_args,
+    description="ETL pipeline to collect daily & historical weather data",
+    schedule="15 11,15,19 * * *",
+    start_date=datetime(2026, 4, 29, tz='Europe/Lisbon'),
+    end_date=datetime(2026, 12, 31, tz='Europe/Lisbon'),
+    max_active_runs=1,
+    tags=["weather", "etl"],
+    catchup=False,
+)
+def weather_etl_pipeline():
+
+    @task(task_id="extract_data")
+    def extract():
+        collect_main()
+
+    @task(task_id="transform_data")
+    def transform():
+        df = transform_main()
+        return df
+
+    @task(task_id="load_data")
+    def load(df_data):
+       load_main(df_data)
+    
+    extract_task = extract()
+    transform_task = transform()
+    load_task = load(transform_task)
+
+    extract_task >> transform_task >> load_task
+
+weather_etl_pipeline()

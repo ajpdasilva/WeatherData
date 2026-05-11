@@ -1,0 +1,13 @@
+city,country,latitude,longitude,timezone,utc_offset,daily_sunrise,daily_sunset,current_time,current_temperature_2m,current_relative_humidity_2m,current_precipitation,current_rain,current_showers,current_snowfall,current_weather_code,current_cloud_cover,current_wind_speed_10m,current_wind_direction_10m
+Johannesburg,South Africa,-26.186293,28.125002,Africa/Johannesburg,2.0,2026-05-05 06:33,2026-05-05 17:35,2026-05-05 11:30,16.8,75,0.0,0.0,0.0,0.0,3,100,17.0,339
+Tokyo,Japan,35.7,139.6875,Asia/Tokyo,9.0,2026-05-05 04:45,2026-05-05 18:30,2026-05-05 18:30,17.2,53,0.0,0.0,0.0,0.0,0,0,8.0,175
+Lisbon,Portugal,38.75,-9.125,Europe/Lisbon,1.0,2026-05-05 06:34,2026-05-05 20:32,2026-05-05 10:30,16.5,56,0.0,0.0,0.0,0.0,2,54,11.9,346
+Melbourne,Australia,-37.785587,144.93976,Australia/Melbourne,10.0,2026-05-05 07:04,2026-05-05 17:29,2026-05-05 19:30,15.6,60,0.0,0.0,0.0,0.0,3,96,6.2,232
+Recife,Brazil,-8.049209,-34.923065,America/Recife,-3.0,2026-05-05 05:22,2026-05-05 17:10,2026-05-05 06:30,23.9,94,0.1,0.1,0.0,0.0,51,98,15.4,194
+Buenos Aires,Argentina,-34.622143,-58.40909,America/Argentina/Buenos_Aires,-3.0,2026-05-05 07:32,2026-05-05 18:07,2026-05-05 06:30,14.9,83,0.0,0.0,0.0,0.0,2,59,6.2,327
+Havana,Cuba,23.093145,-82.37448,America/Havana,-4.0,2026-05-05 06:53,2026-05-05 19:58,2026-05-05 05:30,23.5,92,0.0,0.0,0.0,0.0,0,7,7.7,198
+Los Angeles,United States,34.060257,-118.23433,America/Los_Angeles,-7.0,2026-05-05 05:59,2026-05-05 19:39,2026-05-05 02:30,13.6,82,0.0,0.0,0.0,0.0,2,71,4.3,355
+Odesa,Ukraine,46.5,30.75,Europe/Kiev,3.0,2026-05-05 05:36,2026-05-05 20:10,2026-05-05 12:30,15.8,47,0.0,0.0,0.0,0.0,0,0,7.9,129
+Kuala Lumpur,Malaysia,3.1985939,101.694916,Asia/Kuala_Lumpur,8.0,2026-05-05 07:02,2026-05-05 19:17,2026-05-05 17:30,29.0,76,0.2,0.1,0.1,0.0,53,100,6.6,261
+Kabul,Afghanistan,34.551846,69.23077,Asia/Kabul,4.5,2026-05-05 04:59,2026-05-05 18:40,2026-05-05 14:00,21.7,27,0.0,0.0,0.0,0.0,0,4,7.4,337
+Accra,Ghana,5.5887523,-0.22406006,Africa/Accra,0.0,2026-05-05 05:47,2026-05-05 18:07,2026-05-05 09:30,30.4,71,0.1,0.1,0.0,0.0,51,52,9.1,197

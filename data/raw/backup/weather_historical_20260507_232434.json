@@ -1,0 +1,1490 @@
+{
+    "Johannesburg": {
+        "latitude": -26.186293,
+        "longitude": 28.125002,
+        "generationtime_ms": 15.627145767211914,
+        "utc_offset_seconds": 7200,
+        "timezone": "Africa/Johannesburg",
+        "timezone_abbreviation": "GMT+2",
+        "elevation": 1753.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                4.0,
+                4.1,
+                0.0,
+                1.2,
+                0.5,
+                0.5,
+                0.6
+            ],
+            "sunset": [
+                "2026-03-22T18:16",
+                "2026-03-23T18:15",
+                "2026-03-24T18:14",
+                "2026-03-25T18:13",
+                "2026-03-26T18:12",
+                "2026-03-27T18:11",
+                "2026-03-28T18:10"
+            ],
+            "sunrise": [
+                "2026-03-22T06:12",
+                "2026-03-23T06:12",
+                "2026-03-24T06:13",
+                "2026-03-25T06:13",
+                "2026-03-26T06:13",
+                "2026-03-27T06:14",
+                "2026-03-28T06:14"
+            ],
+            "rain_sum": [
+                12.5,
+                3.6,
+                0.2,
+                0.7,
+                0.0,
+                0.2,
+                0.1
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                16.5,
+                7.7,
+                0.2,
+                1.9,
+                0.5,
+                0.7,
+                0.7
+            ],
+            "wind_direction_10m_dominant": [
+                15,
+                27,
+                50,
+                334,
+                198,
+                26,
+                217
+            ],
+            "wind_speed_10m_max": [
+                18.7,
+                10.8,
+                15.0,
+                11.4,
+                6.3,
+                12.6,
+                12.3
+            ],
+            "weather_code": [
+                61,
+                63,
+                51,
+                51,
+                51,
+                51,
+                51
+            ],
+            "temperature_2m_max": [
+                18.0,
+                21.6,
+                22.7,
+                22.4,
+                24.5,
+                25.0,
+                23.5
+            ]
+        },
+        "country": "South Africa"
+    },
+    "Tokyo": {
+        "latitude": 35.7,
+        "longitude": 139.6875,
+        "generationtime_ms": 22.77064323425293,
+        "utc_offset_seconds": 32400,
+        "timezone": "Asia/Tokyo",
+        "timezone_abbreviation": "GMT+9",
+        "elevation": 40.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sunset": [
+                "2026-03-22T17:54",
+                "2026-03-23T17:54",
+                "2026-03-24T17:55",
+                "2026-03-25T17:56",
+                "2026-03-26T17:57",
+                "2026-03-27T17:58",
+                "2026-03-28T17:59"
+            ],
+            "sunrise": [
+                "2026-03-22T05:42",
+                "2026-03-23T05:40",
+                "2026-03-24T05:39",
+                "2026-03-25T05:38",
+                "2026-03-26T05:36",
+                "2026-03-27T05:35",
+                "2026-03-28T05:33"
+            ],
+            "rain_sum": [
+                0.0,
+                0.8,
+                0.0,
+                8.7,
+                17.0,
+                6.1,
+                5.6
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0,
+                0.8,
+                0.0,
+                8.7,
+                17.0,
+                6.1,
+                5.6
+            ],
+            "wind_direction_10m_dominant": [
+                283,
+                285,
+                17,
+                358,
+                7,
+                38,
+                165
+            ],
+            "wind_speed_10m_max": [
+                5.8,
+                8.5,
+                9.8,
+                4.0,
+                6.2,
+                8.7,
+                7.3
+            ],
+            "weather_code": [
+                3,
+                51,
+                2,
+                61,
+                63,
+                63,
+                61
+            ],
+            "temperature_2m_max": [
+                15.0,
+                14.7,
+                15.7,
+                10.0,
+                11.9,
+                16.4,
+                18.2
+            ]
+        },
+        "country": "Japan"
+    },
+    "Lisbon": {
+        "latitude": 38.75,
+        "longitude": -9.125,
+        "generationtime_ms": 21.740436553955078,
+        "utc_offset_seconds": 3600,
+        "timezone": "Europe/Lisbon",
+        "timezone_abbreviation": "GMT+1",
+        "elevation": 48.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                1.7,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sunset": [
+                "2026-03-22T19:50",
+                "2026-03-23T19:51",
+                "2026-03-24T19:51",
+                "2026-03-25T19:52",
+                "2026-03-26T19:53",
+                "2026-03-27T19:54",
+                "2026-03-28T19:55"
+            ],
+            "sunrise": [
+                "2026-03-22T07:36",
+                "2026-03-23T07:35",
+                "2026-03-24T07:33",
+                "2026-03-25T07:32",
+                "2026-03-26T07:30",
+                "2026-03-27T07:28",
+                "2026-03-28T07:27"
+            ],
+            "rain_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                1.7,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "wind_direction_10m_dominant": [
+                27,
+                353,
+                343,
+                352,
+                26,
+                26,
+                20
+            ],
+            "wind_speed_10m_max": [
+                11.0,
+                6.7,
+                11.6,
+                18.2,
+                23.0,
+                21.7,
+                19.3
+            ],
+            "weather_code": [
+                80,
+                2,
+                3,
+                3,
+                1,
+                0,
+                0
+            ],
+            "temperature_2m_max": [
+                19.6,
+                22.1,
+                21.7,
+                22.5,
+                21.6,
+                21.3,
+                22.2
+            ]
+        },
+        "country": "Portugal"
+    },
+    "Melbourne": {
+        "latitude": -37.785587,
+        "longitude": 144.93976,
+        "generationtime_ms": 15.74862003326416,
+        "utc_offset_seconds": 36000,
+        "timezone": "Australia/Melbourne",
+        "timezone_abbreviation": "GMT+10",
+        "elevation": 19.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.0,
+                3.1,
+                7.3,
+                5.8,
+                6.6,
+                4.4
+            ],
+            "sunset": [
+                "2026-03-22T18:29",
+                "2026-03-23T18:28",
+                "2026-03-24T18:26",
+                "2026-03-25T18:25",
+                "2026-03-26T18:23",
+                "2026-03-27T18:22",
+                "2026-03-28T18:20"
+            ],
+            "sunrise": [
+                "2026-03-22T06:24",
+                "2026-03-23T06:25",
+                "2026-03-24T06:26",
+                "2026-03-25T06:27",
+                "2026-03-26T06:28",
+                "2026-03-27T06:29",
+                "2026-03-28T06:30"
+            ],
+            "rain_sum": [
+                0.0,
+                0.0,
+                0.8,
+                1.4,
+                5.9,
+                0.8,
+                7.6
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0,
+                0.0,
+                3.9,
+                8.7,
+                11.7,
+                7.4,
+                12.0
+            ],
+            "wind_direction_10m_dominant": [
+                353,
+                184,
+                0,
+                7,
+                226,
+                193,
+                194
+            ],
+            "wind_speed_10m_max": [
+                14.1,
+                8.1,
+                18.4,
+                13.5,
+                23.9,
+                31.5,
+                19.0
+            ],
+            "weather_code": [
+                3,
+                3,
+                80,
+                63,
+                61,
+                61,
+                55
+            ],
+            "temperature_2m_max": [
+                29.5,
+                28.3,
+                26.8,
+                25.2,
+                17.9,
+                15.6,
+                18.5
+            ]
+        },
+        "country": "Australia"
+    },
+    "Recife": {
+        "latitude": -8.049209,
+        "longitude": -34.923065,
+        "generationtime_ms": 15.067815780639648,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Recife",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 6.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                2.5,
+                0.5,
+                0.1,
+                1.3,
+                2.2,
+                1.2,
+                1.1
+            ],
+            "sunset": [
+                "2026-03-22T17:29",
+                "2026-03-23T17:28",
+                "2026-03-24T17:28",
+                "2026-03-25T17:27",
+                "2026-03-26T17:27",
+                "2026-03-27T17:26",
+                "2026-03-28T17:26"
+            ],
+            "sunrise": [
+                "2026-03-22T05:23",
+                "2026-03-23T05:23",
+                "2026-03-24T05:23",
+                "2026-03-25T05:23",
+                "2026-03-26T05:23",
+                "2026-03-27T05:23",
+                "2026-03-28T05:23"
+            ],
+            "rain_sum": [
+                1.0,
+                1.4,
+                0.2,
+                0.9,
+                3.4,
+                4.0,
+                5.1
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                3.5,
+                1.9,
+                0.3,
+                2.2,
+                5.6,
+                5.2,
+                6.2
+            ],
+            "wind_direction_10m_dominant": [
+                102,
+                86,
+                100,
+                129,
+                170,
+                169,
+                130
+            ],
+            "wind_speed_10m_max": [
+                15.0,
+                15.3,
+                15.2,
+                15.2,
+                16.3,
+                17.3,
+                13.9
+            ],
+            "weather_code": [
+                53,
+                53,
+                51,
+                53,
+                53,
+                53,
+                55
+            ],
+            "temperature_2m_max": [
+                30.7,
+                31.1,
+                32.0,
+                30.5,
+                29.4,
+                29.4,
+                29.5
+            ]
+        },
+        "country": "Brazil"
+    },
+    "Buenos Aires": {
+        "latitude": -34.622143,
+        "longitude": -58.40909,
+        "generationtime_ms": 15.684127807617188,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Argentina/Buenos_Aires",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 11.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.5,
+                6.2,
+                2.8
+            ],
+            "sunset": [
+                "2026-03-22T19:02",
+                "2026-03-23T19:00",
+                "2026-03-24T18:59",
+                "2026-03-25T18:58",
+                "2026-03-26T18:56",
+                "2026-03-27T18:55",
+                "2026-03-28T18:54"
+            ],
+            "sunrise": [
+                "2026-03-22T06:58",
+                "2026-03-23T06:59",
+                "2026-03-24T07:00",
+                "2026-03-25T07:00",
+                "2026-03-26T07:01",
+                "2026-03-27T07:02",
+                "2026-03-28T07:03"
+            ],
+            "rain_sum": [
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.1
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0,
+                0.2,
+                0.0,
+                0.0,
+                0.5,
+                6.2,
+                3.9
+            ],
+            "wind_direction_10m_dominant": [
+                89,
+                203,
+                308,
+                338,
+                83,
+                82,
+                81
+            ],
+            "wind_speed_10m_max": [
+                19.0,
+                19.1,
+                12.2,
+                7.6,
+                12.3,
+                11.6,
+                13.6
+            ],
+            "weather_code": [
+                2,
+                51,
+                0,
+                0,
+                51,
+                63,
+                61
+            ],
+            "temperature_2m_max": [
+                23.4,
+                24.1,
+                24.5,
+                25.9,
+                25.8,
+                24.8,
+                25.1
+            ]
+        },
+        "country": "Argentina"
+    },
+    "Havana": {
+        "latitude": 23.093145,
+        "longitude": -82.37448,
+        "generationtime_ms": 17.341256141662598,
+        "utc_offset_seconds": -14400,
+        "timezone": "America/Havana",
+        "timezone_abbreviation": "GMT-4",
+        "elevation": 25.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.1
+            ],
+            "sunset": [
+                "2026-03-22T19:41",
+                "2026-03-23T19:41",
+                "2026-03-24T19:42",
+                "2026-03-25T19:42",
+                "2026-03-26T19:42",
+                "2026-03-27T19:43",
+                "2026-03-28T19:43"
+            ],
+            "sunrise": [
+                "2026-03-22T07:31",
+                "2026-03-23T07:30",
+                "2026-03-24T07:29",
+                "2026-03-25T07:28",
+                "2026-03-26T07:27",
+                "2026-03-27T07:26",
+                "2026-03-28T07:25"
+            ],
+            "rain_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7,
+                0.0
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.7,
+                0.1
+            ],
+            "wind_direction_10m_dominant": [
+                81,
+                69,
+                68,
+                76,
+                74,
+                70,
+                52
+            ],
+            "wind_speed_10m_max": [
+                17.5,
+                21.5,
+                18.8,
+                22.0,
+                24.2,
+                21.4,
+                22.6
+            ],
+            "weather_code": [
+                1,
+                3,
+                3,
+                2,
+                1,
+                55,
+                51
+            ],
+            "temperature_2m_max": [
+                25.8,
+                27.6,
+                26.2,
+                27.7,
+                28.1,
+                27.6,
+                27.2
+            ]
+        },
+        "country": "Cuba"
+    },
+    "Los Angeles": {
+        "latitude": 34.060257,
+        "longitude": -118.23433,
+        "generationtime_ms": 70.66750526428223,
+        "utc_offset_seconds": -25200,
+        "timezone": "America/Los_Angeles",
+        "timezone_abbreviation": "GMT-7",
+        "elevation": 91.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sunset": [
+                "2026-03-22T19:06",
+                "2026-03-23T19:06",
+                "2026-03-24T19:07",
+                "2026-03-25T19:08",
+                "2026-03-26T19:09",
+                "2026-03-27T19:09",
+                "2026-03-28T19:10"
+            ],
+            "sunrise": [
+                "2026-03-22T06:53",
+                "2026-03-23T06:51",
+                "2026-03-24T06:50",
+                "2026-03-25T06:49",
+                "2026-03-26T06:47",
+                "2026-03-27T06:46",
+                "2026-03-28T06:45"
+            ],
+            "rain_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "wind_direction_10m_dominant": [
+                230,
+                242,
+                257,
+                257,
+                260,
+                242,
+                262
+            ],
+            "wind_speed_10m_max": [
+                15.0,
+                14.8,
+                14.1,
+                19.5,
+                16.9,
+                15.8,
+                12.0
+            ],
+            "weather_code": [
+                45,
+                45,
+                3,
+                45,
+                45,
+                45,
+                3
+            ],
+            "temperature_2m_max": [
+                26.9,
+                26.5,
+                27.7,
+                26.3,
+                27.9,
+                27.9,
+                26.6
+            ]
+        },
+        "country": "United States"
+    },
+    "Odesa": {
+        "latitude": 46.5,
+        "longitude": 30.75,
+        "generationtime_ms": 11.805295944213867,
+        "utc_offset_seconds": 10800,
+        "timezone": "Europe/Kiev",
+        "timezone_abbreviation": "GMT+3",
+        "elevation": 62.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sunset": [
+                "2026-03-22T19:11",
+                "2026-03-23T19:13",
+                "2026-03-24T19:14",
+                "2026-03-25T19:15",
+                "2026-03-26T19:17",
+                "2026-03-27T19:18",
+                "2026-03-28T19:19"
+            ],
+            "sunrise": [
+                "2026-03-22T06:55",
+                "2026-03-23T06:54",
+                "2026-03-24T06:52",
+                "2026-03-25T06:50",
+                "2026-03-26T06:48",
+                "2026-03-27T06:46",
+                "2026-03-28T06:44"
+            ],
+            "rain_sum": [
+                1.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                1.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1
+            ],
+            "wind_direction_10m_dominant": [
+                23,
+                36,
+                9,
+                11,
+                145,
+                159,
+                114
+            ],
+            "wind_speed_10m_max": [
+                14.8,
+                11.7,
+                11.6,
+                10.9,
+                11.2,
+                6.9,
+                12.6
+            ],
+            "weather_code": [
+                61,
+                3,
+                3,
+                3,
+                3,
+                1,
+                61
+            ],
+            "temperature_2m_max": [
+                10.4,
+                12.7,
+                13.9,
+                12.4,
+                10.5,
+                13.1,
+                12.6
+            ]
+        },
+        "country": "Ukraine"
+    },
+    "Kuala Lumpur": {
+        "latitude": 3.1985939,
+        "longitude": 101.694916,
+        "generationtime_ms": 43.72119903564453,
+        "utc_offset_seconds": 28800,
+        "timezone": "Asia/Kuala_Lumpur",
+        "timezone_abbreviation": "GMT+8",
+        "elevation": 43.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.0,
+                0.9,
+                0.1,
+                0.0,
+                0.0,
+                0.7,
+                1.6
+            ],
+            "sunset": [
+                "2026-03-22T19:23",
+                "2026-03-23T19:23",
+                "2026-03-24T19:23",
+                "2026-03-25T19:23",
+                "2026-03-26T19:22",
+                "2026-03-27T19:22",
+                "2026-03-28T19:22"
+            ],
+            "sunrise": [
+                "2026-03-22T07:16",
+                "2026-03-23T07:16",
+                "2026-03-24T07:15",
+                "2026-03-25T07:15",
+                "2026-03-26T07:15",
+                "2026-03-27T07:14",
+                "2026-03-28T07:14"
+            ],
+            "rain_sum": [
+                0.1,
+                1.2,
+                1.0,
+                0.4,
+                0.2,
+                1.4,
+                1.4
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.1,
+                2.1,
+                1.1,
+                0.4,
+                0.2,
+                2.1,
+                3.0
+            ],
+            "wind_direction_10m_dominant": [
+                277,
+                336,
+                323,
+                350,
+                347,
+                327,
+                68
+            ],
+            "wind_speed_10m_max": [
+                10.7,
+                11.6,
+                10.8,
+                11.0,
+                11.3,
+                7.3,
+                12.3
+            ],
+            "weather_code": [
+                95,
+                53,
+                51,
+                51,
+                51,
+                55,
+                80
+            ],
+            "temperature_2m_max": [
+                34.5,
+                34.2,
+                34.7,
+                34.6,
+                34.7,
+                35.8,
+                34.8
+            ]
+        },
+        "country": "Malaysia"
+    },
+    "Kabul": {
+        "latitude": 34.551846,
+        "longitude": 69.23077,
+        "generationtime_ms": 13.853311538696289,
+        "utc_offset_seconds": 16200,
+        "timezone": "Asia/Kabul",
+        "timezone_abbreviation": "GMT+4:30",
+        "elevation": 1799.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                0.3,
+                0.0,
+                0.0,
+                0.0,
+                0.9,
+                0.0,
+                2.6
+            ],
+            "sunset": [
+                "2026-03-22T18:05",
+                "2026-03-23T18:06",
+                "2026-03-24T18:07",
+                "2026-03-25T18:08",
+                "2026-03-26T18:09",
+                "2026-03-27T18:09",
+                "2026-03-28T18:10"
+            ],
+            "sunrise": [
+                "2026-03-22T05:54",
+                "2026-03-23T05:52",
+                "2026-03-24T05:51",
+                "2026-03-25T05:49",
+                "2026-03-26T05:48",
+                "2026-03-27T05:47",
+                "2026-03-28T05:45"
+            ],
+            "rain_sum": [
+                0.3,
+                0.0,
+                0.0,
+                1.6,
+                0.1,
+                0.0,
+                3.8
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                0.6,
+                0.0,
+                0.0,
+                1.6,
+                1.0,
+                0.0,
+                6.4
+            ],
+            "wind_direction_10m_dominant": [
+                23,
+                47,
+                108,
+                82,
+                17,
+                105,
+                65
+            ],
+            "wind_speed_10m_max": [
+                8.2,
+                14.2,
+                9.8,
+                15.5,
+                8.9,
+                10.0,
+                21.6
+            ],
+            "weather_code": [
+                51,
+                3,
+                3,
+                53,
+                51,
+                3,
+                61
+            ],
+            "temperature_2m_max": [
+                13.0,
+                16.4,
+                17.7,
+                17.6,
+                14.4,
+                20.8,
+                19.5
+            ]
+        },
+        "country": "Afghanistan"
+    },
+    "Accra": {
+        "latitude": 5.5887523,
+        "longitude": -0.22406006,
+        "generationtime_ms": 14.547586441040039,
+        "utc_offset_seconds": 0,
+        "timezone": "Africa/Accra",
+        "timezone_abbreviation": "GMT",
+        "elevation": 5.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-03-22",
+                "2026-03-23",
+                "2026-03-24",
+                "2026-03-25",
+                "2026-03-26",
+                "2026-03-27",
+                "2026-03-28"
+            ],
+            "showers_sum": [
+                3.2,
+                4.0,
+                1.3,
+                0.1,
+                0.0,
+                0.0,
+                0.7
+            ],
+            "sunset": [
+                "2026-03-22T18:11",
+                "2026-03-23T18:11",
+                "2026-03-24T18:11",
+                "2026-03-25T18:10",
+                "2026-03-26T18:10",
+                "2026-03-27T18:10",
+                "2026-03-28T18:10"
+            ],
+            "sunrise": [
+                "2026-03-22T06:04",
+                "2026-03-23T06:03",
+                "2026-03-24T06:03",
+                "2026-03-25T06:02",
+                "2026-03-26T06:02",
+                "2026-03-27T06:01",
+                "2026-03-28T06:01"
+            ],
+            "rain_sum": [
+                0.4,
+                0.1,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "snowfall_sum": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "precipitation_sum": [
+                3.6,
+                4.1,
+                1.3,
+                0.2,
+                0.0,
+                0.0,
+                0.7
+            ],
+            "wind_direction_10m_dominant": [
+                218,
+                238,
+                228,
+                224,
+                219,
+                223,
+                236
+            ],
+            "wind_speed_10m_max": [
+                19.6,
+                18.0,
+                20.2,
+                20.3,
+                17.6,
+                16.5,
+                19.5
+            ],
+            "weather_code": [
+                95,
+                95,
+                95,
+                51,
+                3,
+                95,
+                51
+            ],
+            "temperature_2m_max": [
+                32.9,
+                32.2,
+                32.3,
+                31.1,
+                31.5,
+                33.4,
+                34.8
+            ]
+        },
+        "country": "Ghana"
+    }
+}
