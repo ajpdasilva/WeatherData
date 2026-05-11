@@ -23,6 +23,7 @@ This project implements a fully automated, end-to-end Weather Analytics ETL pipe
 ![architecture](diagrams/Weather_Architecture_Overview.png)
 
 ### Project Structure
+```text
 weather-analytics-etl/
 │
 ├── config/
@@ -57,6 +58,7 @@ weather-analytics-etl/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
 
 ### Database Schema
 ![weather_db_schema](diagrams/Weather_DB.png)
