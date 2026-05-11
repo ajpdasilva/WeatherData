@@ -9,7 +9,6 @@
 - [Installation and Setup](#installation-and-setup)
 - [Technologies Used](#technologies_used)
 
-
 ### Project Overview
 This project implements a fully automated, end-to-end Weather Analytics ETL pipeline that:
 - Extracts daily weather data from the Open-Meteo API
@@ -61,7 +60,7 @@ weather-analytics-etl/
 ```
 
 ### Database Schema
-![weather_db_schema](diagrams/Weather_DB.png)
+![weather_db_schema](diagrams/Weather_Db.png)
 
 ### ETL Workflow
 **Extract Data**
@@ -108,7 +107,6 @@ weather-analytics-etl/
 ```
 ```text
 # 6. Open Airflow UI
-```
    - http://localhost:8000
 ```
 ```text
