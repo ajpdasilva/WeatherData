@@ -1,0 +1,118 @@
+{
+    "Recife": {
+        "latitude": -8.049209,
+        "longitude": -34.923065,
+        "generationtime_ms": 0.1329183578491211,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Recife",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 6.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-05-21"
+            ],
+            "showers_sum": [
+                0.0
+            ],
+            "sunset": [
+                "2026-05-21T17:07"
+            ],
+            "sunrise": [
+                "2026-05-21T05:24"
+            ],
+            "rain_sum": [
+                0.8
+            ],
+            "snowfall_sum": [
+                0.0
+            ],
+            "precipitation_sum": [
+                0.8
+            ],
+            "wind_direction_10m_dominant": [
+                165
+            ],
+            "wind_speed_10m_max": [
+                15.2
+            ],
+            "weather_code": [
+                51
+            ],
+            "temperature_2m_max": [
+                28.5
+            ]
+        },
+        "country": "Brazil"
+    },
+    "Buenos Aires": {
+        "latitude": -34.622143,
+        "longitude": -58.40909,
+        "generationtime_ms": 0.08988380432128906,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Argentina/Buenos_Aires",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 11.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-05-21"
+            ],
+            "showers_sum": [
+                0.0
+            ],
+            "sunset": [
+                "2026-05-21T17:55"
+            ],
+            "sunrise": [
+                "2026-05-21T07:44"
+            ],
+            "rain_sum": [
+                0.0
+            ],
+            "snowfall_sum": [
+                0.0
+            ],
+            "precipitation_sum": [
+                0.0
+            ],
+            "wind_direction_10m_dominant": [
+                166
+            ],
+            "wind_speed_10m_max": [
+                9.8
+            ],
+            "weather_code": [
+                3
+            ],
+            "temperature_2m_max": [
+                12.2
+            ]
+        },
+        "country": "Argentina"
+    }
+}

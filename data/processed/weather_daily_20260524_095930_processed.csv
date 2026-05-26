@@ -1,0 +1,10 @@
+city,country,latitude,longitude,timezone,utc_offset,daily_sunrise,daily_sunset,current_time,current_temperature_2m,current_precipitation,current_rain,current_showers,current_snowfall,current_weather_code,current_wind_speed_10m,current_wind_direction_10m
+Johannesburg,South Africa,-26.186293,28.125002,Africa/Johannesburg,2.0,2026-05-24 06:43,2026-05-24 17:25,2026-05-24 11:45,16.5,0.0,0.0,0.0,0.0,1,4.0,252
+Tokyo,Japan,35.7,139.6875,Asia/Tokyo,9.0,2026-05-24 04:30,2026-05-24 18:45,2026-05-24 18:45,19.7,0.0,0.0,0.0,0.0,2,2.3,108
+Lisbon,Portugal,38.75,-9.125,Europe/Lisbon,1.0,2026-05-24 06:17,2026-05-24 20:49,2026-05-24 10:45,19.6,0.0,0.0,0.0,0.0,3,3.2,63
+Melbourne,Australia,-37.785587,144.93976,Australia/Melbourne,10.0,2026-05-24 07:20,2026-05-24 17:13,2026-05-24 19:45,14.9,0.1,0.1,0.0,0.0,51,8.9,43
+Recife,Brazil,-8.049209,-34.923065,America/Recife,-3.0,2026-05-24 05:25,2026-05-24 17:07,2026-05-24 06:45,26.3,0.0,0.0,0.0,0.0,0,16.5,144
+Buenos Aires,Argentina,-34.622143,-58.40909,America/Argentina/Buenos_Aires,-3.0,2026-05-24 07:46,2026-05-24 17:53,2026-05-24 06:45,10.1,0.0,0.0,0.0,0.0,3,4.7,28
+Havana,Cuba,23.093145,-82.37448,America/Havana,-4.0,2026-05-24 06:45,2026-05-24 20:07,2026-05-24 05:45,24.9,0.0,0.0,0.0,0.0,1,8.4,97
+Los Angeles,United States,34.060257,-118.23433,America/Los_Angeles,-7.0,2026-05-24 05:45,2026-05-24 19:54,2026-05-24 02:45,15.4,0.0,0.0,0.0,0.0,3,4.7,261
+Accra,Ghana,5.5887523,-0.22406006,Africa/Accra,0.0,2026-05-24 05:45,2026-05-24 18:09,2026-05-24 09:45,29.0,0.0,0.0,0.0,0.0,2,6.5,228

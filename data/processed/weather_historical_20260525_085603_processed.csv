@@ -1,0 +1,4 @@
+city,country,latitude,longitude,timezone,utc_offset,sunrise,sunset,time,temperature_2m_max,precipitation_sum,rain_sum,showers_sum,snowfall_sum,weather_code,wind_speed_10m_max,wind_direction_10m_dominant
+Odesa,Ukraine,46.5,30.75,Europe/Kiev,3.0,2026-05-24 05:13,2026-05-24 20:33,2026-05-24,24.4,0.0,0.0,0.0,0.0,3,17.1,355
+Kuala Lumpur,Malaysia,3.1985939,101.694916,Asia/Kuala_Lumpur,8.0,2026-05-24 07:01,2026-05-24 19:18,2026-05-24,32.5,2.4,1.2,1.2,0.0,95,11.9,326
+Kabul,Afghanistan,34.551846,69.23077,Asia/Kabul,4.5,2026-05-24 04:44,2026-05-24 18:54,2026-05-24,22.4,0.0,0.0,0.0,0.0,1,18.6,328

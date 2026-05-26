@@ -1,0 +1,602 @@
+{
+    "Johannesburg": {
+        "latitude": -26.186293,
+        "longitude": 28.125002,
+        "generationtime_ms": 80.12795448303223,
+        "utc_offset_seconds": 7200,
+        "timezone": "Africa/Johannesburg",
+        "timezone_abbreviation": "GMT+2",
+        "elevation": 1753.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T10:45",
+            "interval": 900,
+            "temperature_2m": 14.3,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 0,
+            "wind_speed_10m": 7.3,
+            "wind_direction_10m": 57
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T06:41"
+            ],
+            "sunset": [
+                "2026-05-20T17:26"
+            ]
+        },
+        "country": "South Africa"
+    },
+    "Tokyo": {
+        "latitude": 35.7,
+        "longitude": 139.6875,
+        "generationtime_ms": 13.620257377624512,
+        "utc_offset_seconds": 32400,
+        "timezone": "Asia/Tokyo",
+        "timezone_abbreviation": "GMT+9",
+        "elevation": 40.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T17:45",
+            "interval": 900,
+            "temperature_2m": 23.9,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 3,
+            "wind_speed_10m": 6.5,
+            "wind_direction_10m": 177
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T04:32"
+            ],
+            "sunset": [
+                "2026-05-20T18:42"
+            ]
+        },
+        "country": "Japan"
+    },
+    "Lisbon": {
+        "latitude": 38.75,
+        "longitude": -9.125,
+        "generationtime_ms": 9.595990180969238,
+        "utc_offset_seconds": 3600,
+        "timezone": "Europe/Lisbon",
+        "timezone_abbreviation": "GMT+1",
+        "elevation": 48.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T09:45",
+            "interval": 900,
+            "temperature_2m": 18.4,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 1,
+            "wind_speed_10m": 7.1,
+            "wind_direction_10m": 49
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T06:20"
+            ],
+            "sunset": [
+                "2026-05-20T20:45"
+            ]
+        },
+        "country": "Portugal"
+    },
+    "Melbourne": {
+        "latitude": -37.785587,
+        "longitude": 144.93976,
+        "generationtime_ms": 0.8744001388549805,
+        "utc_offset_seconds": 36000,
+        "timezone": "Australia/Melbourne",
+        "timezone_abbreviation": "GMT+10",
+        "elevation": 19.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T18:45",
+            "interval": 900,
+            "temperature_2m": 13.1,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 2,
+            "wind_speed_10m": 8.0,
+            "wind_direction_10m": 220
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T07:17"
+            ],
+            "sunset": [
+                "2026-05-20T17:15"
+            ]
+        },
+        "country": "Australia"
+    },
+    "Recife": {
+        "latitude": -8.049209,
+        "longitude": -34.923065,
+        "generationtime_ms": 0.19371509552001953,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Recife",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 6.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T05:45",
+            "interval": 900,
+            "temperature_2m": 24.4,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 2,
+            "wind_speed_10m": 8.4,
+            "wind_direction_10m": 165
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T05:24"
+            ],
+            "sunset": [
+                "2026-05-20T17:07"
+            ]
+        },
+        "country": "Brazil"
+    },
+    "Buenos Aires": {
+        "latitude": -34.622143,
+        "longitude": -58.40909,
+        "generationtime_ms": 0.11348724365234375,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Argentina/Buenos_Aires",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 11.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T05:45",
+            "interval": 900,
+            "temperature_2m": 8.0,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 0,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 214
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T07:44"
+            ],
+            "sunset": [
+                "2026-05-20T17:56"
+            ]
+        },
+        "country": "Argentina"
+    },
+    "Havana": {
+        "latitude": 23.093145,
+        "longitude": -82.37448,
+        "generationtime_ms": 0.091552734375,
+        "utc_offset_seconds": -14400,
+        "timezone": "America/Havana",
+        "timezone_abbreviation": "GMT-4",
+        "elevation": 25.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T04:45",
+            "interval": 900,
+            "temperature_2m": 23.3,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 0,
+            "wind_speed_10m": 8.0,
+            "wind_direction_10m": 98
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T06:46"
+            ],
+            "sunset": [
+                "2026-05-20T20:05"
+            ]
+        },
+        "country": "Cuba"
+    },
+    "Los Angeles": {
+        "latitude": 34.060257,
+        "longitude": -118.23433,
+        "generationtime_ms": 0.15223026275634766,
+        "utc_offset_seconds": -25200,
+        "timezone": "America/Los_Angeles",
+        "timezone_abbreviation": "GMT-7",
+        "elevation": 91.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T01:45",
+            "interval": 900,
+            "temperature_2m": 17.9,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 0,
+            "wind_speed_10m": 6.8,
+            "wind_direction_10m": 93
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T05:47"
+            ],
+            "sunset": [
+                "2026-05-20T19:51"
+            ]
+        },
+        "country": "United States"
+    },
+    "Odesa": {
+        "latitude": 46.5,
+        "longitude": 30.75,
+        "generationtime_ms": 2.261638641357422,
+        "utc_offset_seconds": 10800,
+        "timezone": "Europe/Kiev",
+        "timezone_abbreviation": "GMT+3",
+        "elevation": 62.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T11:45",
+            "interval": 900,
+            "temperature_2m": 21.9,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 3,
+            "wind_speed_10m": 11.2,
+            "wind_direction_10m": 345
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T05:17"
+            ],
+            "sunset": [
+                "2026-05-20T20:29"
+            ]
+        },
+        "country": "Ukraine"
+    },
+    "Kuala Lumpur": {
+        "latitude": 3.1985939,
+        "longitude": 101.694916,
+        "generationtime_ms": 0.1043081283569336,
+        "utc_offset_seconds": 28800,
+        "timezone": "Asia/Kuala_Lumpur",
+        "timezone_abbreviation": "GMT+8",
+        "elevation": 43.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T16:45",
+            "interval": 900,
+            "temperature_2m": 30.8,
+            "precipitation": 0.1,
+            "rain": 0.0,
+            "showers": 0.1,
+            "snowfall": 0.0,
+            "weather_code": 51,
+            "wind_speed_10m": 6.9,
+            "wind_direction_10m": 307
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T07:01"
+            ],
+            "sunset": [
+                "2026-05-20T19:17"
+            ]
+        },
+        "country": "Malaysia"
+    },
+    "Kabul": {
+        "latitude": 34.551846,
+        "longitude": 69.23077,
+        "generationtime_ms": 1.291036605834961,
+        "utc_offset_seconds": 16200,
+        "timezone": "Asia/Kabul",
+        "timezone_abbreviation": "GMT+4:30",
+        "elevation": 1799.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T13:15",
+            "interval": 900,
+            "temperature_2m": 25.2,
+            "precipitation": 0.0,
+            "rain": 0.0,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 2,
+            "wind_speed_10m": 12.0,
+            "wind_direction_10m": 71
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T04:47"
+            ],
+            "sunset": [
+                "2026-05-20T18:52"
+            ]
+        },
+        "country": "Afghanistan"
+    },
+    "Accra": {
+        "latitude": 5.5887523,
+        "longitude": -0.22406006,
+        "generationtime_ms": 0.16999244689941406,
+        "utc_offset_seconds": 0,
+        "timezone": "Africa/Accra",
+        "timezone_abbreviation": "GMT",
+        "elevation": 5.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C",
+            "precipitation": "mm",
+            "rain": "mm",
+            "showers": "mm",
+            "snowfall": "cm",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "\u00b0"
+        },
+        "current": {
+            "time": "2026-05-20T08:45",
+            "interval": 900,
+            "temperature_2m": 27.0,
+            "precipitation": 0.1,
+            "rain": 0.1,
+            "showers": 0.0,
+            "snowfall": 0.0,
+            "weather_code": 51,
+            "wind_speed_10m": 5.9,
+            "wind_direction_10m": 270
+        },
+        "daily_units": {
+            "time": "iso8601",
+            "sunrise": "iso8601",
+            "sunset": "iso8601"
+        },
+        "daily": {
+            "time": [
+                "2026-05-20"
+            ],
+            "sunrise": [
+                "2026-05-20T05:45"
+            ],
+            "sunset": [
+                "2026-05-20T18:09"
+            ]
+        },
+        "country": "Ghana"
+    }
+}

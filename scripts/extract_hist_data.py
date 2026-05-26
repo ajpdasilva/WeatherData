@@ -35,6 +35,7 @@ DAILY_PARAMS = [
     "showers_sum", "sunset", "sunrise", "rain_sum", "snowfall_sum", "precipitation_sum", "wind_direction_10m_dominant", "wind_speed_10m_max", "weather_code", "temperature_2m_max"
 ],
 
+
 def extract_historical_data(start_date, end_date, url, input_path, output_path):
     input_file = input_path / "city_hist_list.json"
 

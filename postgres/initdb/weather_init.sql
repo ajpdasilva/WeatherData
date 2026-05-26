@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS public.dim_date (
 
 
 CREATE TABLE IF NOT EXISTS public.dim_weather_condition (
-    weather_key serial4 NOT NULL,
+    weather_key int4 NOT NULL,
 	weather_description text NOT NULL,
 	CONSTRAINT dim_weather_condition_pk PRIMARY KEY (weather_key)
 );

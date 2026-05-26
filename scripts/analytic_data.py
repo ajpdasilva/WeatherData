@@ -37,41 +37,53 @@ def db_connect(db_host, db_name, db_user, db_password, db_port):
         raise Exception("Database connection failed")
 
 
-def weather_summary(conn):
-    """Create or refresh the materialized view of weather summary."""
+def city_weather_summary(conn):
+    """Create or refresh the materialized view of weather summary by city."""
     query_weather_summary = """
-		CREATE MATERIALIZED VIEW IF NOT EXISTS mv_weather_summary AS
-        SELECT
-            dd.date,
+		CREATE MATERIALIZED VIEW IF NOT EXISTS mv_weather_city_summary AS
+        SELECT 
             dl.city_name,
-            fw.temperature,
-            fw.precipitation,
-            fw.wind_speed,
-            dwc.weather_description 
+            ROUND(AVG(fw.temperature)::numeric, 2) AS avg_temp,
+            MIN(fw.temperature) AS min_temp,
+            MAX(fw.temperature) AS max_temp,
+            ROUND(AVG(fw.precipitation)::numeric, 2) AS avg_precip,
+            SUM(fw.precipitation) AS total_precip,
+            ROUND(AVG(fw.wind_speed)::numeric, 2) AS avg_wind_speed,
+            MAX(fw.wind_speed) AS max_wind_speed,
+            ROUND(AVG(fw.rain)::numeric, 2) AS avg_rainfall,
+            ROUND(AVG(fw.snowfall)::numeric, 2) AS avg_snowfall,
+            COUNT(*) AS obs_days
         FROM fact_weather fw
-        JOIN dim_date dd ON fw.date_key = dd.date_key
         JOIN dim_location dl ON fw.location_key = dl.location_key
-        JOIN dim_weather_condition dwc on fw.weather_key = dwc.weather_key 
-        ORDER BY date desc, city_name
+        GROUP BY dl.city_name
+        ORDER BY dl.city_name
+	"""
+    
+    create_ws_view_index = """
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_weather_city_summary_city 
+		ON mv_weather_city_summary (city_name)
 	"""
 
     try:
         cur = conn.cursor()
 
         # Check if the materialized view exists
-        cur.execute("SELECT count(*) FROM pg_matviews WHERE matviewname = 'mv_weather_summary'")
+        cur.execute("SELECT count(*) FROM pg_matviews WHERE matviewname = 'mv_weather_city_summary'")
         exists = cur.fetchone()[0] > 0
 
         if not exists:
             cur.execute(query_weather_summary)
             conn.commit()
-            logging.info("Materialized View 'mv_weather_summary' was created successfully.")
+            logging.info("Materialized View 'mv_weather_city_summary' was created successfully.")
+            cur.execute(create_ws_view_index)
+            conn.commit()
+            logging.info("Index for Materialized View 'mv_weather_city_summary' was created successfully.")
         else:
             logging.info("Materialized View exists. Refreshing data concurrently...")
             try:
-                cur.execute("REFRESH MATERIALIZED VIEW CONCURRENTLY mv_weather_summary;") # CONCURRENTLY -- allows users to query the view while it refreshes
+                cur.execute("REFRESH MATERIALIZED VIEW CONCURRENTLY mv_weather_city_summary;") # CONCURRENTLY -- allows users to query the view while it refreshes
                 conn.commit()
-                logging.info("Refresh of Materialized View 'mv_weather_summary' completed successfully.")
+                logging.info("Refresh of Materialized View 'mv_weather_city_summary' completed successfully.")
             except psycopg2.Error as e:
                 logging.error(f"Error refreshing materialized view: {e}")
                 raise Exception("Materialized view refresh failed")
@@ -99,6 +111,11 @@ def seven_day_trend(conn):
         JOIN dim_date dd ON fw.date_key = dd.date_key
 	"""
 
+    create_wt_view_index = """
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_weather_trend_date_city 
+		ON mv_weather_trend (date, city_name)
+	"""
+
     try:
         cur = conn.cursor()
 
@@ -110,6 +127,9 @@ def seven_day_trend(conn):
             cur.execute(query_weather_trend)
             conn.commit()
             logging.info("Materialized View 'mv_weather_trend' was created successfully.")
+            cur.execute(create_wt_view_index)
+            conn.commit()
+            logging.info("Index for Materialized View 'mv_weather_trend' was created successfully.")
         else:
             logging.info("Materialized View exists. Refreshing data concurrently...")
             try:
@@ -127,38 +147,48 @@ def seven_day_trend(conn):
         conn.close()
 
 
-def monthly_aggregates(conn):
-    """Create or refresh the materialized view of weather aggregates."""
+def city_weekly_summary(conn):
+    """Create or refresh the materialized view of weekly weather summary by city."""
     query_weather_agg = """
-		CREATE MATERIALIZED VIEW IF NOT EXISTS mv_weather_agg AS
-        SELECT
-            dd.month,
-            AVG(fw.temperature) AS avg_temp,
-            SUM(fw.precipitation) AS total_precipitation,
-            AVG(fw.wind_speed) AS avg_windspeed
+		CREATE MATERIALIZED VIEW IF NOT EXISTS mv_weather_city_weekly AS
+        SELECT 
+            dd.week,
+            dl.city_name,
+            ROUND(AVG(fw.temperature)::numeric, 2) AS avg_temp,
+            ROUND(AVG(fw.precipitation)::numeric, 2) AS avg_precip,
+            ROUND(AVG(fw.wind_speed)::numeric, 2) AS avg_wind_speed
         FROM fact_weather fw
-        JOIN dim_date dd ON fw.date_key = dd.date_key
-        GROUP BY dd.month
-        ORDER BY dd.month DESC
+        JOIN dim_location dl ON fw.location_key = dl.location_key
+        JOIN dim_date dd ON fw.date_key = dd.date_key 
+        GROUP BY dd.week, dl.city_name
+        ORDER BY dd.week, dl.city_name
+	"""
+
+    create_wa_view_index = """
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_weather_city_weekly_week 
+		ON mv_weather_city_weekly (week, city_name)
 	"""
 
     try:
         cur = conn.cursor()
 
         # Check if the materialized view exists
-        cur.execute("SELECT count(*) FROM pg_matviews WHERE matviewname = 'mv_weather_agg'")
+        cur.execute("SELECT count(*) FROM pg_matviews WHERE matviewname = 'mv_weather_city_weekly'")
         exists = cur.fetchone()[0] > 0
 
         if not exists:
             cur.execute(query_weather_agg)
             conn.commit()
-            logging.info("Materialized View 'mv_weather_agg' was created successfully.")
+            logging.info("Materialized View 'mv_weather_city_weekly' was created successfully.")
+            cur.execute(create_wa_view_index)
+            conn.commit()
+            logging.info("Index for Materialized View 'mv_weather_city_weekly' was created successfully.")
         else:
             logging.info("Materialized View exists. Refreshing data concurrently...")
             try:
-                cur.execute("REFRESH MATERIALIZED VIEW CONCURRENTLY mv_weather_agg;") # CONCURRENTLY -- allows users to query the view while it refreshes
+                cur.execute("REFRESH MATERIALIZED VIEW CONCURRENTLY mv_weather_city_weekly;") # CONCURRENTLY -- allows users to query the view while it refreshes
                 conn.commit()
-                logging.info("Refresh of Materialized View 'mv_weather_agg' completed successfully.")
+                logging.info("Refresh of Materialized View 'mv_weather_city_weekly' completed successfully.")
             except psycopg2.Error as e:
                 logging.error(f"Error refreshing materialized view: {e}")
                 raise Exception("Materialized view refresh failed")
@@ -170,14 +200,66 @@ def monthly_aggregates(conn):
         conn.close()
     
 
+def weather_condition_summary(conn):
+    """Create or refresh the materialized view of weather conditions summary."""
+    query_weather_agg = """
+		CREATE MATERIALIZED VIEW IF NOT EXISTS mv_weather_condition_summary AS
+        SELECT 
+            dwc.weather_description,
+            count(*) as day_count,
+            ROUND(AVG(fw.temperature)::numeric, 2) AS avg_temp,
+            ROUND(AVG(fw.precipitation)::numeric, 2) AS avg_precip
+        FROM fact_weather fw
+        JOIN dim_weather_condition dwc ON fw.weather_key = dwc.weather_key
+        GROUP BY dwc.weather_description
+        ORDER BY dwc.weather_description
+	"""
+
+    create_wa_view_index = """
+		CREATE UNIQUE INDEX IF NOT EXISTS idx_weather_condition_summary 
+		ON mv_weather_condition_summary (weather_description)
+	"""
+
+    try:
+        cur = conn.cursor()
+
+        # Check if the materialized view exists
+        cur.execute("SELECT count(*) FROM pg_matviews WHERE matviewname = 'mv_weather_condition_summary'")
+        exists = cur.fetchone()[0] > 0
+
+        if not exists:
+            cur.execute(query_weather_agg)
+            conn.commit()
+            logging.info("Materialized View 'mv_weather_condition_summary' was created successfully.")
+            cur.execute(create_wa_view_index)
+            conn.commit()
+            logging.info("Index for Materialized View 'mv_weather_condition_summary' was created successfully.")
+        else:
+            logging.info("Materialized View exists. Refreshing data concurrently...")
+            try:
+                cur.execute("REFRESH MATERIALIZED VIEW CONCURRENTLY mv_weather_condition_summary;") # CONCURRENTLY -- allows users to query the view while it refreshes
+                conn.commit()
+                logging.info("Refresh of Materialized View 'mv_weather_condition_summary' completed successfully.")
+            except psycopg2.Error as e:
+                logging.error(f"Error refreshing materialized view: {e}")
+                raise Exception("Materialized view refresh failed")
+        
+        cur.close()
+
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
+        conn.close()
+
+
 def analytics_main():
     db = db_connect(db_host, db_name, db_user, db_password, db_port)
     logging.info("Connected to the database successfully.")
 
     try:
-        weather_summary(db)
+        city_weather_summary(db)
         seven_day_trend(db)
-        monthly_aggregates(db)
+        city_weekly_summary(db)
+        weather_condition_summary(db)
         db.close()
     except Exception as e:
         logging.error(f"An error occurred: {e}")

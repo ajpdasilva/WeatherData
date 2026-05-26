@@ -8,6 +8,7 @@
 - [ETL Workflow](#etl_workflow)
 - [Installation and Setup](#installation-and-setup)
 - [Technologies Used](#technologies_used)
+- [Dashboard](#dashboard)
 
 ### Project Overview
 This project implements a fully automated, end-to-end Weather Analytics ETL pipeline that:
@@ -119,3 +120,6 @@ weather-analytics-etl/
 - **PostgreSQL** (raw + analytics tables)
 - **Docker Compose** (local deployment)
 - **SQL** (DDL, DML)
+
+### Dashboard
+![weather_dashboard](diagrams/weather_dashboard.png)

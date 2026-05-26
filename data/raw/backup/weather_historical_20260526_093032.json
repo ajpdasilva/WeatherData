@@ -1,0 +1,118 @@
+{
+    "Buenos Aires": {
+        "latitude": -34.622143,
+        "longitude": -58.40909,
+        "generationtime_ms": 1443.808674812317,
+        "utc_offset_seconds": -10800,
+        "timezone": "America/Argentina/Buenos_Aires",
+        "timezone_abbreviation": "GMT-3",
+        "elevation": 11.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-05-25"
+            ],
+            "showers_sum": [
+                0.0
+            ],
+            "sunset": [
+                "2026-05-25T17:53"
+            ],
+            "sunrise": [
+                "2026-05-25T07:47"
+            ],
+            "rain_sum": [
+                0.1
+            ],
+            "snowfall_sum": [
+                0.0
+            ],
+            "precipitation_sum": [
+                0.1
+            ],
+            "wind_direction_10m_dominant": [
+                15
+            ],
+            "wind_speed_10m_max": [
+                7.0
+            ],
+            "weather_code": [
+                51
+            ],
+            "temperature_2m_max": [
+                15.9
+            ]
+        },
+        "country": "Argentina"
+    },
+    "Accra": {
+        "latitude": 5.5887523,
+        "longitude": -0.22406006,
+        "generationtime_ms": 722.409725189209,
+        "utc_offset_seconds": 0,
+        "timezone": "Africa/Accra",
+        "timezone_abbreviation": "GMT",
+        "elevation": 5.0,
+        "daily_units": {
+            "time": "iso8601",
+            "showers_sum": "mm",
+            "sunset": "iso8601",
+            "sunrise": "iso8601",
+            "rain_sum": "mm",
+            "snowfall_sum": "cm",
+            "precipitation_sum": "mm",
+            "wind_direction_10m_dominant": "\u00b0",
+            "wind_speed_10m_max": "km/h",
+            "weather_code": "wmo code",
+            "temperature_2m_max": "\u00b0C"
+        },
+        "daily": {
+            "time": [
+                "2026-05-25"
+            ],
+            "showers_sum": [
+                14.3
+            ],
+            "sunset": [
+                "2026-05-25T18:10"
+            ],
+            "sunrise": [
+                "2026-05-25T05:45"
+            ],
+            "rain_sum": [
+                4.9
+            ],
+            "snowfall_sum": [
+                0.0
+            ],
+            "precipitation_sum": [
+                19.2
+            ],
+            "wind_direction_10m_dominant": [
+                229
+            ],
+            "wind_speed_10m_max": [
+                13.4
+            ],
+            "weather_code": [
+                81
+            ],
+            "temperature_2m_max": [
+                28.1
+            ]
+        },
+        "country": "Ghana"
+    }
+}

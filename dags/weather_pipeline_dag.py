@@ -23,7 +23,7 @@ default_args = {
     default_args=default_args,
     description="Pipeline to collect daily weather data",
     schedule="45 9 * * *",
-    start_date=datetime(2026, 5, 5, tz='Europe/Lisbon'),
+    start_date=datetime(2026, 5, 16, tz='Europe/Lisbon'),
     end_date=datetime(2026, 12, 31, tz='Europe/Lisbon'),
     max_active_runs=1,
     tags=["weather", "etl"],
